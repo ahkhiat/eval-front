@@ -64,10 +64,7 @@ h1, h2, h3, h4, h5 {
 .image-accueil {
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
-    height: 350px;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
-    border-color: black;
+    height: 300px;
     margin-bottom: 80px;
 }
 .boutons {
@@ -86,7 +83,7 @@ h1, h2, h3, h4, h5 {
     color: #ffbe33
 }
 .boutons-caddie {
-    background-color: #ffbe33;
+    background-color: #fff;
     border-color: #ffbe33;
     border-radius: 30px;
     width: 30px;
@@ -127,6 +124,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .card-menu {
+    width: 90%;
     margin: 20px auto;
     padding : 10px;
     background-color: #222831!important;
@@ -135,7 +133,7 @@ h1, h2, h3, h4, h5 {
     color: white!important;
 }
 
-.a-propos {
+.a-propos, .contacter {
     padding: 20px;
     background-color: #222831;
     color: white;
@@ -153,7 +151,89 @@ h1, h2, h3, h4, h5 {
     width: 100px;
 }
 .avis-clients {
-    margin: 10px auto;
+    margin: 10px 10px;
     /* background-color: #222831!important; */
+
+}
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+}
+
+.contacter {
+    text-align: center;
+}
+
+.icones-sociales i {
+    margin: 0px 10px;
+}
+
+.icones-sociales {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+.cadre-cards {
+    display: flex;
+}
+.cadre-cards .card {
+    margin: 0px 20px;
+}
+
+.cadre-articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-menu {
+    width: 300px;
+}
+
+.a-propos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.a-propos-texte {
+    width: 300px;
+}
+
+.cadre-form-map {
+    display: flex;
+    align-items: center;
+}
+.formulaire {
+    width: 50%;
+
+}
+.contacter {
+    display: flex;
+}
+.nous-contacter {
+    width: 30%;
+}
+.le-resto {
+    width: 30%;
+}
+.heures {
+    width: 30%;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+.image-accueil {
+    height: 500px;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.cadre-cards .card {
+    width: 200px;
+
+}
 
 }
