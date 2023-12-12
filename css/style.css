@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto/Roboto-Regular.ttf') format("woff");
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'DancingScript';
+}
+
+.navbar-brand {
+    margin-left: 5px;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav-item {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+.nos-menus {
+    /* width : 50%; */
+    /* margin: 0 auto ; */
+}
+.navbar-secondaire {
+    width : 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+.navbar-secondaire a {
+    text-decoration: none;
+    color: #222831
+}
+.navbar-secondaire-titre {
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+
+
+.image-accueil {
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    height: 350px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 80px;
+}
+.boutons {
+    background-color: #ffbe33;
+    border-color: #ffbe33;
+    width: 130px;
+    height : 35px;
+    border-radius: 30px;
+}
+.boutons:hover {
+    background-color:#e69c00;
+}
+
+.mes-boutons {
+    background-color: #ffbe33;
+    color: #ffbe33
+}
+.boutons-caddie {
+    background-color: #ffbe33;
+    border-color: #ffbe33;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+.boutons-caddie:hover {
+    background-color:#e69c00;
+
+}
+
+.prix-bouton {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card img {
+    width: 40%;
+    margin: 40px auto 0px auto;
+}
+
+.card {
+    margin: 20px auto;
+    background-color: #222831!important;
+    text-align: center;
+    border-radius: 10px!important;
+    border : 5px solid #ffbe33!important;
+    color: white!important;
+
+}
+.card-menu img {
+    width: 40%;
+    margin: 10px ;
+}
+
+.cadre-image {
+    text-align: center;
+}
+
+.card-menu {
+    margin: 20px auto;
+    padding : 10px;
+    background-color: #222831!important;
+    border: 5px solid #ffbe33;
+    border-radius: 10px;
+    color: white!important;
+}
+
+.a-propos {
+    padding: 20px;
+    background-color: #222831;
+    color: white;
+}
+
+.a-propos img {
+    width: 300px;
+}
+
+.map-google {
+    /* text-align: center; */
+}
+
+.carousel-item img {
+    width: 100px;
+}
+.avis-clients {
+    margin: 10px auto;
+    /* background-color: #222831!important; */
+
+}
